@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="screen">
+    <div class="output"></div>
+    <div class="grid">
+        <button type="button" class="button" value="1" onclick="addToOutput('1')">1</button>
+        <button type="button" class="button" value="2" onclick="addToOutput('2')">2</button>
+        <button type="button" class="button" value="3" onclick="addToOutput('3')">3</button>
+        <button type="button" class="button" value="+" onclick="addToOutput('+')">+</button>
+        <button type="button" class="button" value="4" onclick="addToOutput('4')">4</button>
+        <button type="button" class="button" value="5" onclick="addToOutput('5')">5</button>
+        <button type="button" class="button" value="6" onclick="addToOutput('6')">6</button>
+        <button type="button" class="button" value="-" onclick="addToOutput('-')">-</button>
+        <button type="button" class="button" value="7" onclick="addToOutput('7')">7</button>
+        <button type="button" class="button" value="8" onclick="addToOutput('8')">8</button>
+        <button type="button" class="button" value="9" onclick="addToOutput('9')">9</button>
+        <button type="button" class="button" value="*" onclick="addToOutput('*')">*</button>
+        <button type="button" class="button" value="0" onclick="addToOutput('0')">0</button>
+        <button type="button" class="button" value="C" onclick="clearOutput()">C</button>
+        <button type="button" class="button" value="=" onclick="calculate()">=</button>
+        <button type="button" class="button" value="/" onclick="addToOutput('/')">/</button>
+    </div>
+</div>
+</body>
+</html>
